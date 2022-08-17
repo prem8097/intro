@@ -1,0 +1,249 @@
+@import url('https://fonts.google.com/specimen/Epilogue');
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:hsl(0, 0%, 98%);
+    width:100%;
+}
+.navbar
+{
+    padding:20px 10px 10px 10px ;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.navitem,.navitem1
+{
+    position:relative;
+}
+.logo
+{
+    margin-right:50px;
+}
+#down:hover
+{
+    color:hsl(0, 0%, 8%);
+    
+}
+.btn
+{
+    position:absolute;
+    right:3%;
+    top:3%;
+    border-radius:10px;
+    height:40px;
+    padding:5px 20px 5px 20px;
+    color:hsl(0, 0%, 41%);
+    font-family: 'Epilogue', sans-serif;
+    border:2px solid hsl(0, 0%, 41%);
+    background-color:white;
+    
+}
+.btn:hover
+{
+    border:2px solid black;
+    color:black;
+    cursor:pointer;
+    font-weight:400;
+}
+.btn1:hover
+{
+    border:2px solid black;
+    color:black;
+    cursor:pointer;
+    font-weight:bold;
+    background-color:white;
+}
+.lgn
+{
+    position:absolute;
+    right:10%;
+    margin-right:60px;
+}
+div a
+{
+    margin-right:40px; 
+    text-decoration:none;
+    color:hsl(0, 0%, 41%);
+    font-family: 'Epilogue', sans-serif;
+    font-size:14px;
+}
+a:hover
+{
+    color:hsl(0, 0%, 8%);
+    font-weight:550;
+
+}
+#mydropdown
+{
+    padding:12px 12px 18px 14px;
+    border-radius:10px;
+    display:none;
+    background-color: white;
+    max-width: 160px;
+    height:auto;
+    position:absolute;
+    top:11%;
+    left:5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#mydropdown1
+{
+    padding-left:30px;
+    padding-bottom:20px;
+    border-radius:10px;
+    display:none;
+    background-color: white;
+    max-width: 120px;
+    height:auto;
+    position:absolute;
+    top:11%;
+    left:20%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.icons
+{
+    display: block;
+     margin-right:15px;
+    
+}
+.drop-item
+{
+    margin-top:18px;
+}
+.item
+{
+
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.show
+{
+    display:block;
+}
+.bodyimage
+    {
+        
+        width:50%;
+        float:right;
+        background-size: cover;
+        /*height:10%;
+        float:right;*/
+    }
+@media (orientation:landscape)
+{
+    .body-head
+    {
+        width:50%;
+        line-height:60px;
+        float:left;
+    }
+    
+    #bdimg
+{
+    float:right;
+    width:60%;
+    margin-right:20%;
+}
+.container
+{
+    width:100%;
+    padding-left:10%;
+    padding-bottom:4%;
+}
+.body-content
+{
+    width:65%;
+}
+.bimg1
+{
+    display:none;
+}
+}
+.bodyimage1
+{
+    display:none;
+}
+.body-content
+{
+    font-family: 'Epilogue', sans-serif;
+    color:hsl(0, 0%, 41%);
+    font-size:16px;
+    font-weight:850px;
+    line-height:28px; 
+}
+    
+
+
+
+h1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight:700;
+    font-size:70px;
+}
+.btn1
+{
+    margin-top:5%;
+    border-radius:10px;
+    height:40px;
+    padding:5px 20px 5px 20px;
+    color:white;
+    font-family: 'Epilogue', sans-serif;
+    background-color:black;
+    font-weight:bold;
+}
+.company
+{
+    margin-top:8%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.compimg
+{
+    width:11%;
+    height:20px;
+}
+@media (orientation:portrait)
+{
+    
+    .bodyimage1{
+        background-image:url("../images/image-hero-mobile.png");
+        margin-top:40px;
+        margin-bottom:80px;
+        display:block;
+        height:550px;
+    }
+    .bodyimage
+    {
+        display:none;
+    }
+    .body-head
+    {
+        display:block;
+    }
+    .body-content
+    {
+        width:70%;
+    }
+    .navitem,.navitem1,.lgn,.navitem2
+    {
+        display:none;
+    }
+    .body-head
+    {
+        display:block;
+        width:100%;
+    }
+.container
+{
+    padding-left:10%;
+    padding-bottom:20%;
+    
+}
+}
+
