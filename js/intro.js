@@ -1,4 +1,5 @@
 
+
 function myfunc() {
    var click=document.getElementById("mydropdown");
     if(click.style.display =="none") {
@@ -63,6 +64,27 @@ function alertfunc()
 {
     alert("Sorry!!!.Site is under maintenance")
 }
+var doc=document.getElementById("mylinks");
+doc.classList.add("showww");
+function myfunc2()
+{
+    var doc=document.getElementById("mylinks");
+    if(doc.style.display=="block")
+    {
+        doc.style.display="none";
+    }
+    else 
+    {
+    /*if(doc.classList.contains("showww"))
+    {*/
+        doc.style.display="block";
+    }/* 
+    else{
+        doc.classList.remove("showw");
+    }*/
+        
+        /*doc.style.display="block";*/
+    }
   /*function changeImage()
   {
    var cll=document.getElementById("mydropdown");
